@@ -74,22 +74,27 @@
         <h2 class="sec-title">Чем мы занимаемся</h2>
         <ul class="img">
             <li class="img-item">
-                <img src="./img/1.jpg" width="370" height="294" alt="ручной набор текста">
-                <img class="background" src="./img/bg.jpg" alt="background color">
-                <div class="overlay">
-                    <p class="overlay-text">Десктопные приложения</p>
+                <div class="overlay-img">
+                    <img src="./img/1.jpg" width="370" height="294" alt="ручной набор текста">
+                    <div class="overlay">
+                        <p class="overlay-text">Десктопные приложения</p>
+                    </div>
                 </div>
             </li>
             <li class="img-item">
-                <div class="overlay">
+                <div class="overlay-img">
                     <img src="./img/2.jpg" width="370" height="294" alt="с телефона передача информации на компьютер">
-                    <img class="background" src="./img/bg.jpg" alt="background color">
+                    <div class="overlay">
+                        <p class="overlay-text">Мобильные приложения</p>
+                    </div>
                 </div>
             </li>
             <li class="img-item">
-                <div class="overlay">
+                <div class="overlay-img">
                     <img src="./img/3.jpg" width="370" height="294" alt="подбор цвета в палитре">
-                    <img class="background" src="./img/bg.jpg" alt="background color">
+                    <div class="overlay">
+                        <p class="overlay-text">Дизайнерские решения</p>
+                    </div>
                 </div>
             </li>
         </ul>
@@ -348,5 +353,16 @@
         </div>
         </div>
     </footer>
+
+    <div class="is-hidden">
+        <div class="modal">
+            <button type="button" class="button-close">
+                <svg class="icon-close" width="30" height="30">
+                <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
     </body>
 </html>
