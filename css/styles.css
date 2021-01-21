@@ -720,6 +720,7 @@ button {
 }
 
 .social-links {
+  display: flex;
   /* width: 44px;
   height: 44px;
   border-radius: 50%; */
@@ -727,6 +728,8 @@ button {
   background-color: var(--main-backgroundcolor);
   background-position: center;
   background-repeat: no-repeat;
+  align-items: center;
+  justify-content: space-evenly;
 
   fill: var(--social-links-color);
 
@@ -739,8 +742,8 @@ button {
   margin-right: auto;
   margin-left: auto;
 
-  transition-property: background-color fill;
-  transition-duration: 250ms;
+  transition-property: background-color, fill;
+  transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -749,22 +752,6 @@ button {
   background-color: var(--sec-backgroundcolor);
 
   fill: var(--main-backgroundcolor);
-}
-
-.instagram {
-  margin-top: 12px;
-}
-
-.twitter {
-  margin-top: 12px;
-}
-
-.facebook {
-  margin-top: 12px;
-}
-
-.linkedin {
-  margin-top: 12px;
 }
 
 .identification {
@@ -778,11 +765,15 @@ button {
 
 .clients {
   display: flex;
+  justify-content: center;
 }
 
 .clients-li {
   display: flex;
   align-items: center;
+
+  width: 170px;
+  height: 90px;
 }
 
 .clients-links {
@@ -790,8 +781,8 @@ button {
   flex-wrap: wrap;
   align-items: center;
 
-  width: 170px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
 
   fill: var(--social-links-color);
   border: 1px solid var(--social-links-color);
@@ -801,7 +792,7 @@ button {
   padding-top: 0px;
   padding-bottom: 0px;
 
-  transition-property: fill;
+  transition-property: fill, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -843,11 +834,6 @@ button {
 .logo-6 {
   width: 88px;
   height: 45px;
-}
-
-.clients-logo:hover,
-.clients-logo:focus {
-  fill: var(--sec-backgroundcolor);
 }
 
 footer {
