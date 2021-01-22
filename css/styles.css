@@ -109,7 +109,6 @@ header {
   display: block;
   width: 100%;
   height: 5px;
-  border: 1px solid var(--main-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   background-color: var(--sec-backgroundcolor);
@@ -226,6 +225,9 @@ header {
 
   margin-right: 50px;
 
+  padding-bottom: 32px;
+  padding-top: 32px;
+
   transition-property: color fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -249,6 +251,9 @@ header {
 
   color: var(--descrip-text-color);
   fill: var(--sec-backgroundcolor);
+
+  padding-bottom: 32px;
+  padding-top: 32px;
 
   transition-property: color fill;
   transition-duration: 250ms;
@@ -687,7 +692,7 @@ button {
 
 .team-li {
   background-color: var(--main-backgroundcolor);
-  height: 428px;
+  /* height: 428px; */
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -743,7 +748,7 @@ button {
   margin-left: auto;
 
   transition-property: background-color, fill;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
